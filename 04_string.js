@@ -61,5 +61,9 @@ var studentList = "sunil, anil,lata,anu,jenney,sonali";
 var splitResult= studentList.split("|");
 console.log(splitResult);
 
+var impQuote = `"Do or Die" this attitude is important for this training`;
+console.log(impQuote);
 
 
+var splitResult= trimResult.split("")
+console.log(splitResult);

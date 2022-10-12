@@ -39,7 +39,8 @@ var swap_values= function(num1,num2){
     num2=temp;
     console.log("After Swap values:-",num1,num2);
 }
-swap_values(1000,2000)
+swap_values("1000" , "2000");
+swap_values("virat", "Anushka");
 console.log("********************************************");
 
 //String
@@ -50,5 +51,12 @@ console.log("string:-", string_new);
 var count =string_new.length;//to count length of string
 console.log("length of string:-", count);
 
+string_new.indexOf("S");
+console.log("index of Char 'S':-",string_new.indexOf("s"));
 
+string_new.indexOf("lang");
+console.log("index of Char 'lang':-",string_new.indexOf("lang"));
+console.log("Third charater of string:-",string_new.charAt(3));
 
+var last = string_new.charAt(string_new.length - 3);
+console.log("last 3rd character",last);
