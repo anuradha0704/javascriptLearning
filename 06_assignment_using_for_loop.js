@@ -33,7 +33,7 @@ console.log(`First 15 odd numbers are:- ${result}`);
 console.log("");
 
 //que4
-console.warn("Q.4 First 10 Even Numbers");
+console.warn("Q.4.a First 10 Even Numbers");
 console.log("");
 
 var result ='';
