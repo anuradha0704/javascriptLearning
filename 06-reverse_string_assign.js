@@ -5,7 +5,7 @@ function reverseString(givenString)
 {
    console.log(`Given String is:- ${givenString}`);
 
-   var lenthStr = givenString.length - 1; // 
+   var lenthStr = givenString.length -1; // 
    var reverseStr = "";
    for (let index = lenthStr; index >= 0; index--) {
       // console.log(myName.charAt(index));
