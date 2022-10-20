@@ -1,4 +1,12 @@
 let variable_name='';
+
+let mohitPerson={
+    fullName:"Sachin Tendulkar",
+    isMarried:true,
+    age:42,
+}
+
+
 let personDetails={
     fullName:"Sachin Tendulkar",
     
@@ -18,7 +26,7 @@ let personDetails={
     }
     
 }
-console.log(personDetails.eat);
+personDetails.eat();
 
   
 console.log(personDetails.address);
@@ -29,6 +37,7 @@ delete personDetails.age; //to delete property
 
 personDetails.fullName="Sachin Ramesh Tendulkar"// to update the value
 console.log(personDetails);
+
 
 let personFullName=personDetails.fullName// to access only one property
 console.log(personFullName);
@@ -47,4 +56,14 @@ let address={
     pin_code: 123456,
     city:"Pune",
     state:"MH"
+}
+
+
+
+
+console.log("============================================");
+let obj={
+    value:function(){
+
+    }
 }
