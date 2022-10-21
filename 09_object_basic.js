@@ -28,6 +28,7 @@ let personDetails={
 }
 personDetails.eat();
 
+  console.warn("========================in operator========================");
   
 console.log(personDetails.address);
 personDetails.pincode=410210 // to add new property
