@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Global Variable</title>
+    </head>
+    <body>
+        <h3>understandig local storage</h3>
+        <script>
+            window.sessionStorage.setItem("Aradhya","Aldar");
+            window.sessionStorage.setItem("Rudra","waghmode");
+            window.sessionStorage.setItem("krushna","Wag");
+            window.sessionStorage.setItem("Bill","Gates");
+            window.sessionStorage.setItem("sachin","Tendulkar");
+
+           // sessionStorage.removeItem("Aradhya");
+           // sessionStorage.clear();
+           
+           var get_item= sessionStorage.getItem("sachin");
+           console.log("Get Item:-",get_item);
+            
+          var lengthOfSession= sessionStorage.length;
+          console.log("Length of Item:-",lengthOfSession);
+
+            
+
+            
+        </script>
+    </body>
+</html>
