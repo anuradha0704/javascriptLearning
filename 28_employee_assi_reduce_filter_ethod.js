@@ -78,17 +78,37 @@ console.log(`Average Salary of Employee is:-`,averageSalaryEmployee);
 console.warn("Q.6 find average salary of IT dept=================================================");
 
 sum1=0;
+let new_array=[];
 let averageSalaryIt= array_employess.filter((Employee) =>{
     if (Employee.emp_dept=="IT") {
+        new_array.push(Employee.emp_name)
         sum1=sum1+Employee.emp_salary
         console.log(`Name:-${Employee.emp_name}      ID:-${Employee.emp_id}       Dept:-${Employee.emp_dept}       Salary:-${ Employee.emp_salary}      Company Name:-${Employee.emp_company}`);
         
 
     }
-       
+  
 })
-console.log("");
+//console.log(new_array);
 console.log(`Sum of IT dept Employee salary is:- ${sum1}`);
-console.log(`Average Salary of It Dept is:- ${sum1/3}`);
+console.log(`Average Salary of It Dept is:- ${sum1/new_array.length}`);
 
+//or
+console.warn("Q.6 find average salary of IT dept= using reduce and filter method================================================");
+let new_array_emps9=[]
+array_employess.filter((Employee)=>{
+    if(Employee.emp_dept=="IT"){
+        new_array_emps9.push(Employee.emp_salary)
+    }
+});
+console.log(new_array_emps9);
+let len=new_array_emps9.length;
+console.log(len);
 
+let sum3=new_array_emps9.reduce((runningTotal,value,index)=>{
+    runningTotal= runningTotal + value;
+    
+        avg= runningTotal/len
+    return runningTotal;
+})
+console.log(`Average salary of IT department :${avg} `)

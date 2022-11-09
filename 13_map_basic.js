@@ -9,6 +9,11 @@ console.log("Adding duplicate Key===============================================
 map.set(11,"Gautam");//11 key value is updadeted with old value i.e dravid instead of gautam
 console.log(map);
 
+map.set(25,"sachin");
+console.log(map);
+
+
+
 console.log("Retrieving values or getting perticular value===========================================================");
 let value=map.get(33)
 console.log(value);

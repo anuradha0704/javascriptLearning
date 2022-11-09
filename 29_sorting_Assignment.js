@@ -45,5 +45,21 @@ const array1=array_roll_numbers1.sort((a,b)=>{
 array1.reverse()
 console.log("Descending Order using reverse method:-",array1);
 
+console.warn("Q.6.Find the Greatest number from the array=============================================");
+console.log("Greatest number from Array is:-",array1[0]);
+
+console.warn("Q.7.Find the smallest number from the array==============================================");
+console.log("smallest number from Array is:-",array1[array1.length-1]);
+
+console.warn("Q.8.Remove duplicates from array=================================================");
+const arrayDuplicate= new Set(array_roll_numbers)
+console.log(arrayDuplicate);
+
+//  let arrayWiDuplicate= new Array(arrayDuplicate)
+//  console.log( arrayWiDuplicate);
+
+
+
+
 
 
